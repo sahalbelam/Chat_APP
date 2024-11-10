@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { LogOut, MessageCircle, Sparkles } from "lucide-react";
-import JoinRoom from "./JoinRoom";
-import CreateRoom from "./CreateRoom";
+import JoinRoom from "../components/JoinRoom";
+import CreateRoom from "../components/CreateRoom";
 import { Button } from "@/components/ui/button";
 import { auth } from "@/utils/firebase";
 import { useNavigate } from "react-router-dom";
