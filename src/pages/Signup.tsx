@@ -85,7 +85,7 @@ const Signup = () => {
                   <div className="mb-2 text-4xl font-bold">
                     Create an account
                   </div>
-                  <div className="text-md ml-8 text-slate-500">
+                  <div className="text-md ml-4 text-slate-500">
                     Already have an account?{" "}
                     <Link className="ml-2 underline" to={"/signin"}>
                       Login
