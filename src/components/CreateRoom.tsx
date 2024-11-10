@@ -98,7 +98,7 @@ const CreateRoom = () => {
               <Zap className="w-4 h-4 mr-2" />
               Create Room
             </Button>
-          </CardFooter>
+          </CardFooter>{error && error}
         </Card>
       </motion.div>
     </div>
