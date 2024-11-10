@@ -74,7 +74,7 @@ const Signup = () => {
             <img
               src={sideImage}
               alt="image.jpg"
-              className="h-screen flex justify-center flex-col"
+              className="transform scale-x-[-1] h-screen flex justify-center flex-col"
             />
           </div>
 
@@ -82,7 +82,7 @@ const Signup = () => {
             <div className="flex justify-center">
               <div>
                 <div className="px-10">
-                  <div className="mb-2 text-4xl font-bold">
+                  <div className="mb-2 text-3xl font-bold">
                     Create an account
                   </div>
                   <div className="text-md ml-4 text-slate-500">
